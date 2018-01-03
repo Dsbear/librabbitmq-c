@@ -1,5 +1,6 @@
 #librabbitmq-c
 
+src from http://github.com/alanxz/rabbitmq-c
 build type: release
 mingw ver: 5.3
 
