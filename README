@@ -1,0 +1,14 @@
+#librabbitmq-c
+
+build type: release
+mingw ver: 5.3
+
+Build Guide
+1. [Set %MinGW%/bin in <System PATH>]
+2. [Logout and Login]
+3. cd %rabbitmq-c%/cmake/
+4. mkdir build
+5. cd build
+6. cmake -G "MinGW Makefiles" -D CMAKE_INSTALL_PREFIX=../../install ../../
+7. mingw32-make
+8. mingw32-make install
